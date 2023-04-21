@@ -15,10 +15,9 @@
 
 ## Features
 
-Browse and filter hotels and properties for rent or buy
-Add properties to your favorites list
-User authentication and login
-Integrated Google Maps for location-based searches
+- Browse and filter hotels and properties for rent or buy
+- Add properties to your favorites list
+
 
 
 ## Screenshots
