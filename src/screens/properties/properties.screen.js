@@ -38,12 +38,12 @@ const Properties = () => {
 
   const handleAddFavorite = (property) => {
     addToFavorites(property);
-    console.log(`Added: ${JSON.stringify(property)}`);
+    // console.log(`Added: ${JSON.stringify(property)}`);
   };
 
   const handleRemoveFavorite = (property) => {
     removeFromFavorites(property);
-    console.log(`Removed: ${JSON.stringify(property)}`);
+    // console.log(`Removed: ${JSON.stringify(property)}`);
   };
   /* end of favorites */
 
@@ -65,11 +65,13 @@ const Properties = () => {
 
   const renderItem = ({ item }) => {
     return (
-      <View
+      <TouchableOpacity 
+        activeOpacity={0.7}
         style={{
           marginVertical: 12,
           alignItems: "center",
         }}
+      
       >
         {/* Image Cover */}
         <View style={{ overflow: "hidden" }}>
@@ -135,7 +137,7 @@ const Properties = () => {
             </View>
           </View>
         </View>
-      </View>
+      </TouchableOpacity>
     );
   };
 
